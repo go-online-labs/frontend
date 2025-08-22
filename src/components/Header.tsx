@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { CheckSquare } from "lucide-react";
+import { Link } from "./ui/link";
 
 const Header = () => {
   return (
@@ -13,30 +14,18 @@ const Header = () => {
         </div>
 
         <nav className="hidden md:flex items-center gap-8">
-          <a
-            href="#services"
-            className="text-muted-foreground hover:text-foreground transition-colors"
-          >
+          <Link variant="outline" href="#services">
             Services
-          </a>
-          <a
-            href="#projects"
-            className="text-muted-foreground hover:text-foreground transition-colors"
-          >
+          </Link>
+          <Link variant="outline" href="#projects">
             Projects
-          </a>
-          <a
-            href="#testimonials"
-            className="text-muted-foreground hover:text-foreground transition-colors"
-          >
+          </Link>
+          <Link variant="outline" href="#testimonials">
             Testimonials
-          </a>
-          <a
-            href="#contact"
-            className="text-muted-foreground hover:text-foreground transition-colors"
-          >
+          </Link>
+          <Link variant="outline" href="#contact">
             Contact
-          </a>
+          </Link>
         </nav>
 
         <Button variant="outline" className="hidden md:inline-flex">
