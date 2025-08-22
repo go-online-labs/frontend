@@ -14,16 +14,16 @@ const Header = () => {
         </div>
 
         <nav className="hidden md:flex items-center gap-8">
-          <Link variant="outline" href="#services">
+          <Link variant="ghost" href="#services">
             Services
           </Link>
-          <Link variant="outline" href="#projects">
+          <Link variant="ghost" href="#projects">
             Projects
           </Link>
-          <Link variant="outline" href="#testimonials">
+          <Link variant="ghost" href="#testimonials">
             Testimonials
           </Link>
-          <Link variant="outline" href="#contact">
+          <Link variant="ghost" href="#contact">
             Contact
           </Link>
         </nav>
